@@ -1,8 +1,9 @@
 version: 0.2
 
 phases:
-  commands:
-    - echo "entering build phase"
-    - echo "env" && env
-    - python ./hello.py
-    - echo "build phas complete"
+  build:
+    commands:
+      - echo "entering build phase"
+      - echo "env" && env
+      - python ./hello.py
+      - echo "build phase complete"
