@@ -6,4 +6,6 @@ phases:
       - echo "entering build phase"
       - echo "env" && env
       - python ./hello.py
+      - echo "disk space" && df 
+      - echo "process list" && ps -ax
       - echo "build phase complete"
